@@ -6,6 +6,7 @@ Simple Solidity smart contract deployed on OPN Testnet.
 
 - Network: OPN Testnet
 - Solidity Version: 0.8.20
+- https://testnet.iopn.tech/address/0xE68BD43edFBf7cf29bB787cAc53FE8e05842E300
 
 ## Contract Address
 
