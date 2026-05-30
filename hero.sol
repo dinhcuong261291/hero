@@ -5,6 +5,16 @@ contract Hero {
 
     string public name = "Hero";
     string public symbol = "HERO";
+
     uint256 public totalSupply = 1000000;
 
+    address public owner;
+
+    constructor() {
+        owner = msg.sender;
+    }
+
+    function getOwner() public view returns(address) {
+        return owner;
+    }
 }
