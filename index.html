@@ -1,10 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Hero</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DeFi Nexus</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
 </head>
-<body style="background:#111;color:white;text-align:center;padding-top:100px;font-family:Arial;">
-  <h1>Hero Project</h1>
-  <p>Decentralized finance platform built on blockchain.</p>
+
+<body>
+
+<nav>
+    <div class="logo">DeFi Nexus</div>
+
+    <button id="connectBtn">
+        Connect Wallet
+    </button>
+</nav>
+
+<section class="hero">
+
+    <h1>
+        Decentralized Finance
+        <span>Powered by Blockchain</span>
+    </h1>
+
+    <p>
+        Secure lending, staking, yield farming and asset management
+        built for the future of Web3.
+    </p>
+
+    <div class="wallet-info">
+        <p id="walletAddress">
+            Wallet not connected
+        </p>
+    </div>
+
+</section>
+
+<section class="features">
+
+    <div class="card">
+        <h3>Stake Assets</h3>
+        <p>Earn passive income through decentralized staking pools.</p>
+    </div>
+
+    <div class="card">
+        <h3>Lending</h3>
+        <p>Supply liquidity and earn interest securely.</p>
+    </div>
+
+    <div class="card">
+        <h3>Yield Farming</h3>
+        <p>Maximize rewards through optimized farming strategies.</p>
+    </div>
+
+</section>
+
+<section class="stats">
+
+    <div class="stat">
+        <h2>$250M+</h2>
+        <p>Total Value Locked</p>
+    </div>
+
+    <div class="stat">
+        <h2>120K+</h2>
+        <p>Users</p>
+    </div>
+
+    <div class="stat">
+        <h2>15+</h2>
+        <p>Supported Networks</p>
+    </div>
+
+</section>
+
+<footer>
+    © 2026 DeFi Nexus. All Rights Reserved.
+</footer>
+
+<script src="script.js"></script>
+
 </body>
 </html>
